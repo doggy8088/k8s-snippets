@@ -2,7 +2,7 @@
   "name": "k8s-snippets",
   "displayName": "Kubernetes Snippets",
   "description": "High quality Code Snippets that help you authoring YAML scripts for Kubernetes.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "doggy8088",
   "preview": true,
   "icon": "icon.png",
@@ -10,6 +10,15 @@
   "engines": {
     "vscode": "^1.41.0"
   },
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#DAD0C2",
+    "theme": "light"
+  },
+  "keywords": [
+    "kubernetes",
+    "k8s"
+  ],
   "categories": [
     "Extension Packs",
     "Snippets"

@@ -31,4 +31,16 @@ This extension contains a set of Kubernetes code snippets that helps you write Y
 
 * `k-pvc`: k8s [PersistentVolumeClaim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 
+## Extensions Included
+
+This extension bundled with some MUST needed VSCode extensions for Kubernetes developments.
+
+* [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
+
+    Develop, deploy and debug Kubernetes applications
+
+* [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+
+    YAML Language Support by Red Hat, with built-in Kubernetes syntax support
+
 **Enjoy!**
