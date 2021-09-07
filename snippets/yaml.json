@@ -488,5 +488,97 @@
             "---",
             "$0"
         ]
+    },
+    "k8s Role": {
+        "prefix": "k-role",
+        "description": "k8s Role",
+        "body": [
+            "# https://kubernetes.io/docs/reference/access-authn-authz/rbac/",
+            "apiVersion: rbac.authorization.k8s.io/v1",
+            "kind: Role",
+            "metadata:",
+            "  name: ${1:role}",
+            "  namespace: ${2:default}",
+            "rules:",
+            "- apiGroups: [${3:\"\"}] # \"\" indicates the core API group",
+            "  resources: [${4:\"pods\"}]",
+            "  verbs: [${5:\"get\", \"watch\", \"list\"}]",
+            "---",
+            "$0"
+        ]
+    },
+    "k8s ClusterRole": {
+        "prefix": "k-clusterrole",
+        "description": "k8s ClusterRole",
+        "body": [
+            "# https://kubernetes.io/docs/reference/access-authn-authz/rbac/",
+            "apiVersion: rbac.authorization.k8s.io/v1",
+            "kind: ClusterRole",
+            "metadata:",
+            "  name: ${1:clusterrole}",
+            "rules:",
+            "- apiGroups: [${3:\"\"}] # \"\" indicates the core API group",
+            "  resources: [${4:\"secrets\"}]",
+            "  verbs: [${5:\"get\", \"watch\", \"list\"}]",
+            "---",
+            "$0"
+        ]
+    },
+    "k8s RoleBinding": {
+        "prefix": "k-rolebinding",
+        "description": "k8s RoleBinding",
+        "body": [
+            "# https://kubernetes.io/docs/reference/access-authn-authz/rbac/",
+            "apiVersion: rbac.authorization.k8s.io/v1",
+            "kind: RoleBiding",
+            "metadata:",
+            "  name: ${1:rolebinding}",
+            "  namespace: ${2:default}",
+            "subjects:",
+            "- kind: ${3:User}",
+            "  name: ${4:username} # Name is case sensitive",
+            "  apiGroup: rbac.authorization.k8s.io",
+            "roleRef:",
+            "  kind: ${5:Role}",
+            "  name: ${6:RoleName}",
+            "  apiGroup: rbac.authorization.k8s.io",
+            "---",
+            "$0"
+        ]
+    },
+    "k8s ClusterRoleBinding": {
+        "prefix": "k-clusterrolebinding",
+        "description": "k8s ClusterRoleBinding",
+        "body": [
+            "# https://kubernetes.io/docs/reference/access-authn-authz/rbac/",
+            "apiVersion: rbac.authorization.k8s.io/v1",
+            "kind: ClusterRoleBiding",
+            "metadata:",
+            "  name: ${1:clusterrolebinding}",
+            "subjects:",
+            "- kind: ${3:Group}",
+            "  name: ${4:groupname} # Name is case sensitive",
+            "  apiGroup: rbac.authorization.k8s.io",
+            "roleRef:",
+            "  kind: ${5:ClusterRole}",
+            "  name: ${6:RoleName}",
+            "  apiGroup: rbac.authorization.k8s.io",
+            "---",
+            "$0"
+        ]
+    },
+    "k8s ServiceAccount": {
+        "prefix": "k-serviceaccount",
+        "description": "k8s ServiceAccount",
+        "body": [
+            "# https://kubernetes.io/docs/reference/access-authn-authz/rbac/",
+            "apiVersion: rbac.authorization.k8s.io/v1",
+            "kind: ServiceAccount",
+            "metadata:",
+            "  name: ${1:serviceaccount}",
+            "  namespace: ${2:default}",
+            "---",
+            "$0"
+        ]
     }
 }
