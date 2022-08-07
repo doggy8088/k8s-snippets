@@ -55,6 +55,10 @@ This extension bundled with some MUST needed VSCode extensions for Kubernetes de
 
     YAML Language Support by Red Hat, with built-in Kubernetes syntax support
 
+* [Kubernetes Apply](https://marketplace.visualstudio.com/items?itemName=ShaiMendel.kubernetesapply)
+
+    Apply and Delete Kubernetes resource files
+
 There are some other extensions you may need (Optional)
 
 * [Dapr](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-dapr)

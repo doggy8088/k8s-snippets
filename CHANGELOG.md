@@ -2,6 +2,10 @@
 
 All notable changes to this extension will be documented in this file.
 
+## 0.3.0 - 2022-08-08
+
+* Add [Kubernetes Apply](https://marketplace.visualstudio.com/items?itemName=ShaiMendel.kubernetesapply) extension
+
 ## 0.2.0 - 2022-08-06
 
 * Add more snippets.
