@@ -2,7 +2,7 @@
   "name": "k8s-snippets",
   "displayName": "Kubernetes Snippets",
   "description": "High quality Code Snippets that help you authoring YAML scripts for Kubernetes.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "publisher": "doggy8088",
   "preview": true,
   "icon": "icon.png",
@@ -24,6 +24,7 @@
     "Snippets"
   ],
   "extensionPack": [
+    "mitchdenny.ecdc",
     "ShaiMendel.kubernetesapply",
     "redhat.vscode-yaml",
     "ms-kubernetes-tools.vscode-kubernetes-tools"

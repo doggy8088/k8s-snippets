@@ -59,6 +59,10 @@ This extension bundled with some MUST needed VSCode extensions for Kubernetes de
 
     Apply and Delete Kubernetes resource files
 
+* [Encode Decode](https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)
+
+    This allows you to quickly convert text selections such as Base64 encode/decode. So much useful for Secrets authoring.
+
 There are some other extensions you may need (Optional)
 
 * [Dapr](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-dapr)

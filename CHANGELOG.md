@@ -2,6 +2,11 @@
 
 All notable changes to this extension will be documented in this file.
 
+## 0.4.0 - 2022-08-17
+
+* Add [Encode Decode](https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc) extension
+* Update `k-deploymment` snippet that add two more `env` example on it.
+
 ## 0.3.0 - 2022-08-08
 
 * Add [Kubernetes Apply](https://marketplace.visualstudio.com/items?itemName=ShaiMendel.kubernetesapply) extension
