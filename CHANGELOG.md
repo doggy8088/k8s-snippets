@@ -2,6 +2,11 @@
 
 All notable changes to this extension will be documented in this file.
 
+## 0.4.2 - 2022-08-26
+
+* Add `k-serviceaccount-imagepullsecrets` snippet
+* Update `k-secret`, `k-rolebinding` and `k-clusterrolebinding` snippets
+
 ## 0.4.0 - 2022-08-17
 
 * Add [Encode Decode](https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc) extension

@@ -34,14 +34,15 @@ This extension contains a set of Kubernetes code snippets that helps you write Y
 
 ### [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 
-* `k-role`: k8s Role
-* `k-clusterrole`: k8s [ClusterRole](https://kubernetes.io/docs/reference/kubernetes-api/authorization-resources/cluster-role-v1/)
+* `k-role`: k8s [Role](https://kubernetes.io/docs/reference/kubernetes-api/authorization-resources/role-v1/)
 * `k-rolebinding`: k8s [RoleBinding](https://kubernetes.io/docs/reference/kubernetes-api/authorization-resources/role-binding-v1/)
+* `k-clusterrole`: k8s [ClusterRole](https://kubernetes.io/docs/reference/kubernetes-api/authorization-resources/cluster-role-v1/)
 * `k-clusterrolebinding`: k8s [ClusterRoleBinding](https://kubernetes.io/docs/reference/kubernetes-api/authorization-resources/cluster-role-binding-v1/)
 
 ### [Authentication Resources](https://kubernetes.io/docs/reference/kubernetes-api/authentication-resources/)
 
 * `k-serviceaccount`: k8s [ServiceAccount](https://kubernetes.io/docs/reference/kubernetes-api/authentication-resources/service-account-v1/)
+* `k-serviceaccount-imagepullsecrets`: k8s [ServiceAccount](https://kubernetes.io/docs/reference/kubernetes-api/authentication-resources/service-account-v1/) with `imagePullSecrets`. See also: [Add image pull secret to service account](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#add-imagepullsecrets-to-a-service-account)
 
 ## Extensions Included
 
