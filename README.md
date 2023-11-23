@@ -1,6 +1,6 @@
 # Kubernetes Snippets
 
-This extension contains a set of Kubernetes code snippets that helps you write YAML faster and easier. If you'd like to provide ideas or contribute your awesome snippets, please drop me a line by [creating an issue](https://github.com/doggy8088/k8s-snippets/issues).
+This extension contains a set of Kubernetes code snippets that helps you write YAML faster and easier. If you'd like to provide ideas or contribute your awesome snippets, please drop me a line by [creating an issue](https://github.com/yzdann/k8s-snippets/issues).
 
 ![Usage Screenshot](https://user-images.githubusercontent.com/88981/99081103-391baa00-25fd-11eb-9e2e-6ae5e2f771ef.png)
 
